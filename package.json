@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build",
-    "start": "next start ./docs",
+    "build": "next build && node script/copy-next-assets.js",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
