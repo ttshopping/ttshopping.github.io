@@ -1,10 +1,11 @@
 import LocaleSwitcher from "@/app/dashboard/locale-switcher";
+import Link from "next/link";
 
 export default function Dashboard(){
     return (
         <div>
             <LocaleSwitcher></LocaleSwitcher>
-            123123
+            <Link href="/list">list</Link>
         </div>
     )
 }
