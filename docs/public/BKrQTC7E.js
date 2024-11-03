@@ -1,0 +1,1 @@
+import t from"./D5T5NYdA.js";import{d as a,t as o,v as r,z as n,Q as s}from"./DBgOtvDT.js";const p=a({__name:"default",setup(l){return(e,d)=>(o(),r("div",null,[n(t),s(e.$slots,"default")]))}});export{p as default};
