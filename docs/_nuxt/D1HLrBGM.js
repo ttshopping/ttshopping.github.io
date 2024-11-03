@@ -1,1 +1,0 @@
-import{_ as r,v as s,x as n,J as o,t as a}from"./DgJZKWU_.js";const l={};function c(t,e){return a(),s("div",null,[e[0]||(e[0]=n("p",null,"一些在所有页面之间共享的默认布局内容",-1)),o(t.$slots,"default")])}const f=r(l,[["render",c]]);export{f as default};

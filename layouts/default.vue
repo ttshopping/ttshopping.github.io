@@ -1,6 +1,10 @@
+<script setup lang="ts">
+import Header from "./Header.vue";
+</script>
+
 <template>
-    <div>
-      <p>一些在所有页面之间共享的默认布局内容</p>
-      <slot />
-    </div>
-  </template>
+  <div>
+    <Header></Header>
+    <slot />
+  </div>
+</template>

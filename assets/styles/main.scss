@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "animate.css";
+
+.container {
+  max-width: 1520px;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  padding-inline-end: 50px;
+  padding-inline-start: 50px;
+  padding-bottom: 50px;
+}
+.section-inner {
+  @apply me-auto py-[50px] pe-[50px] ps-[50px]
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all .25s ease;
+  cursor: pointer;
+}
