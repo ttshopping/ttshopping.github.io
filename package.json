@@ -6,6 +6,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev --host",
     "generate": "nuxt generate",
+    "assets": "node script/copy-next-assets.cjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
