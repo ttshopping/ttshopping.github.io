@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build && npm run assets",
+    "build": "nuxt build",
     "dev": "nuxt dev --host",
-    "generate": "nuxt generate",
+    "generate": "nuxt generate && npm run assets",
     "assets": "node script/copy-next-assets.cjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -20,6 +20,7 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^9.14.0",
     "eslint-plugin-tailwindcss": "^3.17.5",
+    "fs-extra": "^11.2.0",
     "postcss": "^8.4.47",
     "sass-embedded": "^1.80.6",
     "tailwindcss": "^3.4.14"

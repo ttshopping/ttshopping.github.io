@@ -1,3 +1,4 @@
+const fsExtra = require('fs-extra');
 const fs = require('fs');
 const path = require('path');
 const { promisify } = require('util');
@@ -24,6 +25,9 @@ async function modifyHtmlFiles(paths) {
         }
     }
 }
+
+fsExtra.removeSync(path.resolve('docs'));
+fsExtra.copySync(path.resolve('.output/public/'), path.resolve('docs/'), { overwrite: true, move: false });
 
 getFiles(path.resolve('docs')).then(res => {
     modifyHtmlFiles(res).then(() => {

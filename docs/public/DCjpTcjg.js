@@ -1,0 +1,1 @@
+import t from"./BtNKlQK5.js";import{d as a,t as o,v as r,z as n,R as s}from"./DdMkax_3.js";const p=a({__name:"default",setup(l){return(e,d)=>(o(),r("div",null,[n(t),s(e.$slots,"default")]))}});export{p as default};
