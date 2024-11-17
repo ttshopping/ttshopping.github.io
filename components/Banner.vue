@@ -55,7 +55,7 @@ function select(ind: number) {
 
 </script>
 <template>
-  <div class='w-full overflow-hidden relative group/item' :style="{ height: height }">
+  <div class='w-full overflow-hidden relative group/item aspect-[756/319]' :style="{ height: height }">
     <div class='absolute left-0 w-full h-full will-change-transform transition-transform duration-[600ms]' :style="translateX">
       <div class='absolute left-0 w-full h-full' v-for="(item, index) of list" :key="item" :style="itemStyles[index]">
         <ClientOnly>
