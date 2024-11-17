@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt build && npm run assets",
     "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "assets": "node script/copy-next-assets.cjs",
