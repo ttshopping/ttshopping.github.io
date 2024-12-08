@@ -1,0 +1,1 @@
+const a=Object.assign({name:"Redirect"},{__name:"index",setup(t){const e=VueRouter.useRoute();return VueRouter.useRouter().replace({path:"/"+e.params.path,query:e.query}),(u,o)=>(Vue.openBlock(),Vue.createElementBlock("div"))}});export{a as default};
