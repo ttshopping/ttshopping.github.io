@@ -1,4 +1,4 @@
-import { _ as i } from "./_plugin-vue_export-helper-CHgC5LLL.js";
+import { _ as i } from "./plugin-vueexport-helper-CHgC5LLL.js";
 const s = {};
 function l(e, n) {
   const r = Vue.resolveComponent("RouterView");
@@ -15,7 +15,7 @@ const a = /* @__PURE__ */ i(s, [["render", l]]), f = [
   {
     path: "/product",
     name: "Product",
-    component: () => import("./Product-CiITGIVj.js")
+    component: () => import("./Product-C1f45pfz.js")
   }
 ];
 function p(e) {
